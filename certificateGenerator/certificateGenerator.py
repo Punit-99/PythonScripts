@@ -24,7 +24,7 @@ def generate_certificate_from_excel():
         # COLUMN NAME CONTAINING NAMES
         column_name = input("Enter the name of the column containing names in the Excel file: ")
 
-    #     X&Y OFFSET
+        # X&Y OFFSET
         x_offset = 0
         y_offset = 0
 
