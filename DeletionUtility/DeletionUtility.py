@@ -26,10 +26,10 @@ def delete_files(folder_path, files_to_delete):
                 delete_file(index)
     else:
         print("Deletion process cancelled.")
-
 if __name__ == "__main__":
     folder_path = input("Enter the folder path: ")
     data_input = input("Enter the data to delete (separated by comma): ")
     files_to_delete = [x.strip() for x in data_input.split(',')]
 
     delete_files(folder_path, files_to_delete)
+
